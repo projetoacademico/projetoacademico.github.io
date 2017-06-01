@@ -1,0 +1,257 @@
+/*********************************\COMENTÁRIOS SYSUNCISAL/*********************************/
+
+/*
+TÍTULO: Painel Acadêmico;
+DESCRIÇÃO: Esta folha de estilo contém códigos inerentes a página de login, logoff e painel administrativo;
+AUTOR: Mateus Alexandre e Lucas Alves;
+VERSÃO: 1.0;
+*/
+
+
+/****************************************\RESET/*************************************/
+
+nav {
+  color: #fff;
+  background-color: #26a69a;
+}
+
+nav ul a {
+  color: #fff;
+}
+.teal {
+  background-color: #00c853 !important;
+}
+body {
+  background-color: #e9ecf3;
+}
+.logo {
+  height: 150px;
+  padding: 20px 0;
+  text-align: center;
+}
+.logo img {
+  width: 75px;
+  height: 110px;
+}
+.breadcrumbs {
+  font-weight: bold;
+  color: #424242;
+}
+.title-line {
+  display: block;
+  width: 80px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  text-align: center;
+  border-bottom: 2px solid #30d371;
+  border-radius: 5px;
+}
+.title-line2 {
+  display: block;
+  width: 80px;
+  margin-bottom: 30px;
+  text-align: left;
+  border-bottom: 2px solid #30d371;
+  border-radius: 5px;
+}
+.formulario {
+  width: 85%;
+  margin: 30px auto;
+}
+.formulario .lembrar-senha--direito {
+  float: right;
+}
+.formulario .enviar-dados {
+  text-align: center;
+}
+.formulario .enviar-dados--btn {
+  font-size: 16px;
+  line-height: 37px;
+  margin-top: 50px;
+  padding: 0 30px;
+  -webkit-transition: all .15s ease-out 0s;
+     -moz-transition: all .15s ease-out 0s;
+       -o-transition: all .15s ease-out 0s;
+          transition: all .15s ease-out 0s;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #26a69a;
+  border-color: #26a69a;
+  border-radius: 100px;
+  background: #26a69a;
+}
+.formulario .enviar-dados--btn:hover {
+  border-color: #30d371;
+  background: #30d371;
+}
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 32px;
+  padding: 0 12px;
+}
+.box {
+  width: 35%;
+  height: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 6px 0 rgba(41, 70, 97, .1);
+}
+.ajuda a {
+  cursor: pointer;
+  color: #26a69a;
+}
+.ajuda .controle p {
+  text-align: right;
+}
+
+
+/****************************************\INICIO PÁGINA DE LOGOFF/*************************************/
+
+.sair h2 {
+  margin-top: 70px;
+  text-align: center;
+}
+
+/****************************************\BOLETIM/*************************************/
+.box-boletim {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #00c853;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+}
+.boletim p,
+.nota p {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+.painel {
+  height: auto;
+  min-height: 700px;
+  margin-top: 30px;
+  background-color: #e9ecf3;
+}
+.painel i {
+  font-size: 3rem;
+  line-height: 1;
+  height: auto;
+  padding-top: 40px;
+  color: #f36a5a;
+}
+.painel p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #aab5bc;
+}
+.painel h4 {
+  font-weight: bold;
+  text-align: right;
+  color: #212121;
+}
+
+.box-painel--op {
+  height: 125px;
+  padding: 16px;
+  transition: box-shadow .1s linear;
+  border: 1px solid rgba(139,152,190,.2);
+  border-radius: 1px;
+  background: #fff;
+  box-shadow: 0 30px 30px 0 rgba(139,152,190,.2);
+}
+.painel-op1 {
+  background-color: #fafafa;
+}
+.painel-op2 {
+  background-color: #fafafa;
+}
+.painel-op3 {
+  background-color: #fafafa;
+}
+.painel-op4 {
+  background-color: #fafafa;
+}
+
+
+.menu-painel {
+  height: auto;
+  transition: box-shadow .1s linear;
+  border: 1px solid rgba(139,152,190,.2);
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 30px 30px 0 rgba(139,152,190,.2);
+}
+.menu-painel p {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #000;
+}
+
+.menu-painel--op {
+  height: 150px;
+  -webkit-transition: all ease .5s;
+     -moz-transition: all ease .5s;
+      -ms-transition: all ease .5s ;
+       -o-transition: all ease .5s;
+          transition: opacity .5s;
+          transition: all ease .5s ;
+  text-align: center;
+  border: 0;
+  border-left: 2px solid #00c853;
+  background-color: #fafafa;
+}
+.menu-painel--op:hover {
+  -webkit-transition: all ease .7s;
+     -moz-transition: all ease .7s;
+      -ms-transition: all ease .7s ;
+       -o-transition: all ease .7s;
+          transition: all ease .5s ;
+  background-color: #00c853;
+}
+.menu-painel--op i {
+  font-size: 2rem;
+  color: #000;
+}
+.menu-painel--op p {
+  font-size: 22px;
+  color: #000;
+}
+
+.noticias p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+}
+
+/****************************************\DECLARAÇÃO/*************************************/
+
+.declaracao {
+  padding: 50px 0;
+}
+
+
+/****************************************\FOOTER/*************************************/
+
+
+.rodape {
+  margin: 0;
+  padding: 25px;
+  font-weight: 300;
+}
+
+/****************************************\AJUSTE RESPONSIVIDADE/*************************************/
+
+@media only screen and (max-width : 930px) {
+  .box {
+    width: 80%;
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Matrícula - Uncisal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style/main.css"/>
+	<link rel="stylesheet" href="style/custom.css">
+</head>
+<body>
+	<header>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="mudar-senha.html">Mudar Senha</a></li>
+            <li class="divider"></li>
+            <li><a href="index.html">Sair</a></li>
+        </ul>
+        <div class="navbar-fixed">
+            <nav class="blue-grey darken-4">
+                <div class="nav-wrapper container">
+                    <a href="painel.html" class="brand-logo">
+                        <img class="img-logo" src="images/logo.png">
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><img class="circle responsive " width="35" src="images/default.png" style="margin-top: 15px;"></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Mateus Alexandre<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+	<main class="declaracao">
+		<div class="row">
+			<div class="container">
+			<div class="breadcrumbs">
+						<p><a href="painel.html">Painel</a> > Matrícula</p><br>
+					</div>
+				<div class="col s12"  style="background: #fff;border-radius: 5px;padding: 50px;">
+
+					<h4>Comprovante de Matrícula</h4>
+					<form class="col s12">
+				      <div class="row">
+				        <div class="input-field col s6">
+				          <input id="last_name" type="text" class="validate">
+				          <label for="last_name">Contrato</label>
+				        </div>
+				        <div class="input-field col s6">
+				          <input id="last_name" type="text" class="validate">
+				          <label for="last_name">Período Atual</label>
+				        </div>
+				        <div class="input-field col s12">
+				          <input id="last_name" type="text" class="validate">
+				          <label for="last_name">Curso</label>
+				        </div>
+				        <div class="input-field col s6">
+				          <input id="last_name" type="text" class="validate">
+				          <label for="last_name">Carimbo</label>
+				        </div>
+				        <div class="input-field col s6">
+				          <input id="last_name" type="text" class="validate">
+				          <label for="last_name">Responsável</label>
+				        </div>
+				        <div class="input-field col s12">
+				          <input id="last_name" type="text" class="validate">
+				          <label for="last_name">Data de Emissão</label>
+				        </div>
+				      </div>
+				    </form>
+				    <a class="waves-effect waves-light btn-large" href="javascript:print();">Imprimir</a>
+					<div class="fixed-action-btn toolbar">
+			            <a class="btn-floating btn-large blue-grey darken-4">
+			                <i class="large material-icons">perm_identity</i>
+			            </a>
+			            <ul>
+			                <li class="waves-effect waves-light"><a href="index.html">DESLOGAR</a></li>
+			                <li class="waves-effect waves-light"><a href=javascript:print();>IMPRIMIR PÁGINA</a></li>
+			            </ul>
+			        </div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="row rodape blue-grey darken-4 white-text center ">
+		<div class="col s12 container">
+		    2017  © Universidade Estadual de Ciências da Saúde de Alagoas
+		</div>
+    </footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

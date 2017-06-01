@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alterar Senha - Uncisal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="style/main.css"/>
+        <link rel="stylesheet" href="style/custom.css">
+    </head>
+    <body>
+        <main>
+            <div class="row">
+                <div class="col s12">
+                    <div class="box">
+                        <div class="logo">
+                            <img src="images/logo.jpg" alt="UNCISAL">
+                        </div>
+                        <div class="formulario">
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">lock_open</i>
+                                            <input id="icon_prefix" type="password" class="validate">
+                                            <label for="icon_prefix">Senha Atual</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">lock_outline</i>
+                                            <input id="icon_telephone" type="password" class="validate">
+                                            <label for="icon_telephone">Nova Senha</label>
+                                        </div>
+                                        <div class="col s12 enviar-dados">
+                                            <a class="enviar-dados--btn waves-effect waves-light" onclick="Materialize.toast('Senha Alterada com Sucesso!', 3000,'',function(){window.location.replace('index.html');})">Alterar Senha</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
